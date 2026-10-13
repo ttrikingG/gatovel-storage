@@ -1,0 +1,60 @@
+# Composer
+/vendor/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Tests
+/coverage/
+/.phpunit.cache/
+/.phpunit.result.cache
+.phpunit-watcher.yml
+/tests/output/
+/tests/tmp/
+
+# Backups and temporary files
+*.bak
+*.backup
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated storage
+/storage/
+/tmp/
+/cache/
+
+# PHP tools
+.php-cs-fixer.cache
+.phpactor.yml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+
+# Docker overrides
+compose.override.yaml
+docker-compose.override.yml

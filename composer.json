@@ -1,0 +1,37 @@
+{
+    "name": "gatovel/storage",
+    "description": "Sistema modular e independente de gerenciamento de arquivos para aplicações PHP.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "storage",
+        "filesystem",
+        "files",
+        "upload",
+        "s3",
+        "php",
+        "gatovel",
+        "framework"
+    ],
+    "require": {
+        "php": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gatovel\\Storage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gatovel\\Storage\\Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "aws/aws-sdk-php": "Optional integration with Amazon S3."
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "aws/aws-sdk-php": "^3.0"
+    }
+}
